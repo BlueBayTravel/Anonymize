@@ -1,0 +1,29 @@
+{
+    "name": "bluebaytravel/anonymize",
+    "description": "Anonymize IPv4 and IPv6 addresses",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "James Brooks",
+            "email": "james@bluebaytravel.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "BlueBayTravel\\Anonymize\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "BlueBayTravel\\Tests\\Anonymize\\": "tests/"
+        }
+    },
+    "minimum-stability": "dev"
+}
